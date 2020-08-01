@@ -10,6 +10,7 @@ Dockerfile.dev
 Dockerfile
 yarn.lock
 data.json
+/api/data.json
 
 # testing
 /coverage
