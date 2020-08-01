@@ -7,6 +7,9 @@
 package-lock.json
 docker-compose.yaml
 Dockerfile.dev
+Dockerfile
+yarn.lock
+data.json
 
 # testing
 /coverage
