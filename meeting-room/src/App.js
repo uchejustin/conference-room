@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import Details from "./components/Details";
+import Booking from "./components/Booking";
+import Edit from "./components/Edit";
+import Header from "./components/Header";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Our First React App</h1>
-        </header>
-        <div>
-          <p>Hello World</p>
-          <p>I added some text here</p>
-        </div>
+        <Header/>
+        <Details/>
+        <Booking/>
+        <Edit/>
       </div>
     );
   }

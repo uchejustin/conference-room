@@ -11,6 +11,10 @@ Dockerfile
 yarn.lock
 data.json
 /api/data.json
+/api/node_modules
+/api/Dockerfile
+/api/Dockerfile.dev
+/api/data.json
 
 # testing
 /coverage
