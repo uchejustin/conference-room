@@ -15,6 +15,7 @@ data.json
 /api/Dockerfile
 /api/Dockerfile.dev
 /api/data.json
+/api/run.sh
 
 # testing
 /coverage
