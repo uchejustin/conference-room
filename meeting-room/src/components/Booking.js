@@ -8,11 +8,9 @@ class Booking extends Component {
   }
 
   renderList() {
-    return this.props.posts.map(post => {
+    return this.props.features.map(item => {
       return (
-        <div className="item" key={post.id}>
-          <div className="description">{post.title}</div>
-        </div>
+          <div className="description">Booking</div>
       );
     });
   }
@@ -21,21 +19,9 @@ class Booking extends Component {
     return (
         <div>
           Booking Component
-          <div className="ui celled list">{this.renderList()}</div>
         </div>
          );
     }
 }
 
-const mapStateToProps = state => {
-  console.log("state is the following: ");
-  console.log(state);
-  return {
-    posts: Object.values(state.posts)
-  };
-};
-
-export default connect(
-  mapStateToProps,
-  { fetchPosts }
-)(Booking);
+export default connect()(Booking);
