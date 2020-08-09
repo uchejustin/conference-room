@@ -4,7 +4,7 @@ import { fetchPosts } from '../actions';
 
 class Booking extends Component {
   componentDidMount() {
-    this.props.fetchPosts();
+    //this.props.fetchPosts();
   }
 
   renderList() {
